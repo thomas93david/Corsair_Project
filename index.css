@@ -1,0 +1,525 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.788);
+}
+
+/* HEADER OF WEBSITE */
+
+.main-container {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  height: 80px;
+  z-index: 2;
+}
+
+.box-one {
+  background-color: white;
+  display: flex;
+  height: 95%;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-one .image-box {
+  display: flex;
+  background-color: white;
+  width: 75px;
+  height: 100%;
+  flex-grow: 1;
+  margin-left: 25px;
+  margin-right: 25px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.box-one .image-box img {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.box-one .nav {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 3px;
+  width: 50px;
+  height: 45px;
+  flex-grow: 3;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-one .nav > div > a {
+  text-decoration: none;
+  color: black;
+}
+
+.box-one .icons {
+  background-color: white;
+  font-size: 12px;
+  width: 50px;
+  height: 45px;
+  flex-grow: 1;
+  padding: 9px;
+  margin-left: 25px;
+  margin-right: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  width: 100%;
+  height: 50px;
+  background-color: lightgray;
+  margin-top: 75px;
+}
+
+.banner .banner-wrap {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 150px;
+  height: 100%;
+  width: 500px;
+}
+
+.banner-wrap .image-one img {
+  padding: 10px;
+  width: 66px;
+  height: 25px;
+  filter: brightness(50%);
+}
+.banner-wrap .image-two img {
+  border-left: 1px solid black;
+  padding: 10px;
+  width: 100px;
+  height: 25px;
+  filter: brightness(50%);
+}
+.banner-wrap .image-three img {
+  border-left: 1px solid black;
+  width: 127px;
+  height: 25px;
+  padding: 10px;
+  filter: brightness(50%);
+}
+
+/* MAIN-CONTENT OF WEBSITE */
+
+#content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#content-wrapper .image-one .dark-core {
+  width: 100%;
+  height: 600px;
+  background-image: url("https://cwsmgmt.corsair.com/hybris/homepage/images/hp_banner_dark_core_pro.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#content-wrapper .image-one .dark-core h2 {
+  color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 3px;
+  font-size: 60px;
+}
+
+#content-wrapper .image-one .dark-core p {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 4px;
+  font-size: 16px;
+  margin-top: 35px;
+}
+
+#content-wrapper .image-one .dark-core a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid gold;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 4px;
+  font-size: 14px;
+  margin-top: 35px;
+}
+
+#content-wrapper .explore {
+  color: white;
+  text-align: center;
+  align-items: flex-start;
+  margin-top: 45px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 3px;
+  font-size: 33px;
+}
+
+#content-wrapper .products {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  margin-bottom: -25px;
+}
+
+#content-wrapper .product-one {
+  background-image: url("https://cwsmgmt.corsair.com/responsive/img/product_cat/cases2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 150px;
+  height: 150px;
+}
+
+#content-wrapper .product-two {
+  background-image: url("https://cwsmgmt.corsair.com/responsive/img/product_cat/keyboards_2.png");
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#content-wrapper .product-three {
+  background-image: url("https://cwsmgmt.corsair.com/responsive/img/product_cat/mice_2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 150px;
+  height: 150px;
+}
+
+#content-wrapper .product-four {
+  background-image: url("https://cwsmgmt.corsair.com/responsive/img/product_cat/headsetsImage_2.png");
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#content-wrapper .product-four {
+  background-image: url("https://cwsmgmt.corsair.com/responsive/img/product_cat/explore_one_2.png");
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#content-wrapper .product-five {
+  background-image: url("https://cwsmgmt.corsair.com/responsive/img/product_cat/headsetsImage_2.png");
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#content-wrapper .product-name {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  widows: 100%;
+  height: 75px;
+}
+
+#content-wrapper .product-name > div {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 3px;
+}
+
+#content-wrapper .product-name .cases {
+  width: 75px;
+  height: 50px;
+  margin-left: 25px;
+}
+#content-wrapper .product-name .cases a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 3px solid darkgrey;
+}
+
+#content-wrapper .product-name .keyboards {
+  width: 100px;
+  height: 50px;
+  margin-left: 25px;
+}
+
+#content-wrapper .product-name .keyboards a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 3px solid darkgrey;
+}
+
+#content-wrapper .product-name .mice {
+  margin-left: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+#content-wrapper .product-name .mice a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 3px solid darkgrey;
+}
+
+#content-wrapper .product-name .gaming-pc {
+  margin-left: 35px;
+  width: 150px;
+  height: 50px;
+}
+
+#content-wrapper .product-name .gaming-pc a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 3px solid darkgrey;
+}
+
+#content-wrapper .product-name .headsets {
+  width: 100px;
+  height: 50px;
+}
+
+#content-wrapper .product-name .headsets a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 3px solid darkgrey;
+}
+
+#content-wrapper .left-right {
+  background-color: rgba(59, 58, 58, 0.158);
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+#content-wrapper .left-right .image-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+}
+
+#content-wrapper .left-right .image-right {
+  width: 50%;
+  padding-left: 13px;
+}
+
+#content-wrapper .left-right .image-left .top-image {
+  background-image: url("https://images.idgesg.net/images/article/2018/11/corsair_k70_low_profile_1-100781256-large.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 13px;
+}
+
+#content-wrapper .left-right .image-left .bottom-image {
+  background-image: url("https://cwsmgmt.corsair.com/pdp/virtuoso/img/carousel-se-01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#content-wrapper .left-right .image-right .center-image {
+  background-image: url("https://i.ytimg.com/vi/dnmIGnZaFK8/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin-left: 3px;
+}
+
+#content-wrapper .c-net .c-net-image {
+  background-image: url("https://cwsmgmt.corsair.com/hybris/tlc/systems/CorsairOneI200_BKG2.jpg");
+  width: 100%;
+  height: 545px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#content-wrapper .graphics {
+  background-color: rgba(59, 58, 58, 0.158);
+  width: 100%;
+  height: 500px;
+  margin-top: 50px;
+}
+
+#content-wrapper .graphics .graphics-wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#content-wrapper .graphics .graphics-wrap .game {
+  background-image: url("https://uhdwallpapers.xyz/media/images/ori/2020/04/02/smite-neon-hero-rama-4k-wallpaper-4325681585822103.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 100%;
+  margin-right: 13px;
+}
+#content-wrapper .graphics .graphics-wrap .build {
+  background-image: url("https://cwsmgmt.corsair.com/hybris/tlc/cases/220T_RGB_Black_21.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+}
+
+#content-wrapper .last {
+  width: 100%;
+  height: 500px;
+  margin-top: 50px;
+}
+
+#content-wrapper .last .pad {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 3px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://cwsmgmt.corsair.com/media/hybris/tlc/mousepads/TLC_mousepads_banner.jpg");
+}
+
+#content-wrapper .last .pad h2 {
+  color: whitesmoke;
+  padding-top: 70px;
+  font-size: 45px;
+}
+
+#content-wrapper .last .pad a {
+  color: whitesmoke;
+  font-size: 20px;
+  text-decoration: none;
+  border-bottom: 3px solid gold;
+}
+
+/* FOOTER CSS OF WEBSITE */
+#footer {
+  height: 300px;
+  position: relative;
+  display: flex;
+  /* top: 1000px; */
+  bottom: 0;
+}
+
+.bottom-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 250px;
+  background-color: lightgray;
+}
+
+.bottom-page .bottom-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+  width: 95%;
+  height: 75%;
+}
+
+.bottom-page .bottom-wrapper > div {
+  width: 150px;
+  height: 150px;
+  background-color: lightgray;
+  margin: 9px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-page .bottom-wrapper > div > h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+}
+.bottom-page .bottom-wrapper .social-media {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 250px;
+}
+
+.bottom-page .bottom-wrapper > div > a {
+  padding: 2px;
+  color: rgba(8, 6, 6, 0.849);
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.bottom-page .bottom-wrapper .social-media .social-wrap {
+  display: flex;
+  width: 100%;
+  height: 45px;
+  margin: 3px;
+  background-color: lightgray;
+}
+.bottom-page .bottom-wrapper .social-media .icon-one {
+  width: 30px;
+  height: 30px;
+  margin: 6px;
+  color: white;
+}
+
+.bottom-page .bottom-wrapper .social-media .icon-two img {
+  width: 30px;
+  height: 30px;
+  margin: 6px;
+}
+.bottom-page .bottom-wrapper .social-media .icon-three img {
+  width: 30px;
+  height: 30px;
+  margin: 6px;
+}
+.bottom-page .bottom-wrapper .social-media .icon-four img {
+  width: 30px;
+  height: 30px;
+  margin: 6px;
+  color: white;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+  font-size: 12px;
+}
+
+.copyright > div {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  text-align: b;
+}
